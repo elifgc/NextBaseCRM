@@ -10,6 +10,7 @@ public class LoginPage {
     public LoginPage(){
 
         PageFactory.initElements(Driver.get(),this);
+
     }
 
     @FindBy(xpath = "//input[@placeholder='Login']")

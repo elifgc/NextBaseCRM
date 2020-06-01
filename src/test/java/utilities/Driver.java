@@ -1,4 +1,5 @@
-package com.cybertek.utilities;
+
+package utilities;
 
 
 import io.github.bonigarcia.wdm.WebDriverManager;

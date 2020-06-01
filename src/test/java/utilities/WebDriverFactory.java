@@ -11,6 +11,7 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
+
 public class WebDriverFactory {
 
     public static WebDriver getDriver(String browserType){
@@ -20,12 +21,13 @@ public class WebDriverFactory {
             case "chrome":
                 WebDriverManager.chromedriver().setup();
                 driver=new ChromeDriver();
-                break;
-            case "firefox":
+
+
                 WebDriverManager.firefoxdriver().setup();
                 driver=new FirefoxDriver();
                 break;
         }
+
         return driver;
     }
 
